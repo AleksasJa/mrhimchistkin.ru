@@ -1,0 +1,9 @@
+User-agent: Yandex
+Disalow: /confidentiality.html
+
+User-agent: Googlebot
+Disalow: /confidentiality.html
+Allow: *.css
+Allow: *.js
+
+Sitemap: https://mrhimchistkin.ru/sitemap.xml
