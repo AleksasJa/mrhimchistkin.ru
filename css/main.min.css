@@ -875,7 +875,8 @@
   line-height:1.55
   }
   .article-first {
-      padding: 0;
+    padding: 0;
+    padding-bottom: 5%;
     overflow: hidden;
   }
   .article-first h1 {
@@ -895,7 +896,8 @@
     overflow: hidden;
   }
   .article-second {
-    padding: 0;    
+    padding: 0;
+    padding-bottom: 5%;    
     overflow: hidden;
   }
   .article-second h1 {
