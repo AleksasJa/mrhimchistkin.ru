@@ -875,6 +875,7 @@
   line-height:1.55
   }
   .article-first {
+      padding: 0;
     overflow: hidden;
   }
   .article-first h1 {
@@ -891,6 +892,26 @@
     font-size: 1.8rem;
   }
   .article-first_image {
+    overflow: hidden;
+  }
+  .article-second {
+    padding: 0;    
+    overflow: hidden;
+  }
+  .article-second h1 {
+    text-align: left;
+  }
+  .article-second_main {
+    font-size: 1.5rem;
+    line-height: 1.55;
+  }
+  .article-second_main strong {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+  .article-second_image {
     overflow: hidden;
   }
   .price-sofas_block{
