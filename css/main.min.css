@@ -886,6 +886,9 @@
     font-size: 1.5rem;
     line-height: 1.55;
   }
+  .article-first_main h2, p, ol, li {
+    padding-top: 2%;
+  }
   .article-first_main strong {
     display: inline-block;
     margin-top: 2rem;
