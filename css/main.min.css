@@ -350,7 +350,7 @@
   position:absolute;
   text-align:right;
   right:10rem;
-  top:10rem
+  top:7rem
   }
   .overlayMenu ul{
   list-style:none;
@@ -898,6 +898,10 @@
   .article-first_image {
     overflow: hidden;
   }
+  .article-first_image img {
+    height: 100%;
+    width: 100%;
+  }
   .article-second {
     padding: 0;
     padding-bottom: 5%;    
@@ -921,6 +925,10 @@
   }
   .article-second_image {
     overflow: hidden;
+  }
+  .article-second_image img {
+    height: 100%;
+    width: 100%;
   }
   .price-sofas_block{
   text-align:center
