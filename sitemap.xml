@@ -28,6 +28,41 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://mrhimchistkin.ru/price.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/otzivy.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/foto.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/blog/index.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/blog/kak-pochistit-matras-ot-mochi.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/blog/chistka-vanish.html</loc>
+  <lastmod>2020-07-06</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mrhimchistkin.ru/kontakty.html</loc>
+  <lastmod>2020-11-05</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://mrhimchistkin.ru/svetlogorsk.html</loc>
   <lastmod>2020-11-05</lastmod>
   <priority>0.80</priority>
@@ -37,5 +72,4 @@
   <lastmod>2020-11-05</lastmod>
   <priority>0.80</priority>
 </url>
-
 </urlset>
