@@ -1,0 +1,4 @@
+#Ignore  php files
+*.php
+#Ignore xlsx files
+*.xlsx
