@@ -1,4 +1,10 @@
-#Ignore  php files
+#Ignore the php files
 *.php
-#Ignore xlsx files
+
+#Ignore the xmls files
 *.xlsx
+
+#Ignore the images
+*.png
+*.webp
+*.jpg
