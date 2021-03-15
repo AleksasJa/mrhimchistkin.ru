@@ -1,8 +1,15 @@
+User-agent: *
+Disallow: /?*
+Clean-param: 6 /index.html
+
 User-agent: Yandex
-Disalow: /confidentiality.html
+Disallow: /confidentiality.html
+Disallow: /?*
+Clean-param: 6 /index.html
 
 User-agent: Googlebot
-Disalow: /confidentiality.html
+Disallow: /confidentiality.html
+Disallow: /?*
 Allow: *.css
 Allow: *.js
 
