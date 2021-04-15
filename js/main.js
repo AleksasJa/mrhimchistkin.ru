@@ -45,6 +45,36 @@
 	        }
 			});
 
+			$(function() {
+				var Accordion = function(el, multiple) {
+					this.el = el || {};
+					// more then one submenu open?
+					this.multiple = multiple || false;
+					var dropdownlink = this.el.find('.dropdownlink');
+					dropdownlink.on('click',
+													{ el: this.el, multiple: this.multiple },
+													this.dropdown);							
+				};
+			
+				Accordion.prototype.dropdown = function(e) {
+					var $el = e.data.el,
+							$this = $(this),
+							//this is the ul.submenuItems
+							$next = $this.next();
+							
+					$next.slideToggle();
+					setTimeout(function(){$next.slideToggle()}, 5000);
+					$this.parent().toggleClass('open');
+					
+					if(!e.data.multiple) {
+						//show only one menu at the same time
+						$el.find('.submenuItems').not($next).slideUp().parent().removeClass('open');
+					}
+				}
+
+				var accordion = new Accordion($('.accordion-menu'), false);
+			});
+
 	    $('.clients-section_slider').owlCarousel({
 	        loop:true,
 	        margin:20,
@@ -150,9 +180,8 @@
 	     });
 	     return false;
 	   }
-       });
-
-			 $('.modal_form').validate({
+     });
+		 $('.modal_form').validate({
 	   rules: {
 	     // simple rule, converted to {required:true}
 	     order_UserName: "required",
@@ -179,7 +208,7 @@
 	     });
 	     return false;
 	   }
-       });
+     });
 			
 			var orderItem;
 			 $('.order-button').on('click', function(xa){
