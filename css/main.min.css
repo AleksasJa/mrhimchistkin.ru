@@ -20,6 +20,9 @@
   html body{
   overflow-x:hidden
   }
+  a {
+    text-decoration: none;
+  }
   a:hover{
   text-decoration:none
   }
@@ -48,7 +51,7 @@
   .form,form{
   border-radius:50px
   }
-  .form-input,.form-select,.form-textarea,form-input,form-select,form-textarea{
+  .form-input,.form-select,.form-textarea,.form-input,.form-select,.form-textarea{
   display:block;
   margin:2rem 0;
   width:100%;
@@ -88,7 +91,9 @@
   }
   ul, li, ol {
     padding-left: 0;
+    list-style: none;
   }
+  
   .back-button{
   position:relative
   }
@@ -463,6 +468,74 @@
   .main-menu_item:hover{
   color:#63ead3
   }
+  .accordion-menu{
+    /* width:100%; */
+    max-width:350px;
+    /*margin:60px auto 20px;*/
+    background:#fff;
+    border-radius:4px;
+    font-size:16px;
+    color:#63ead3;
+  }
+  .accordion-menu li.open .dropdownlink {
+    color:#63ead3;
+  }
+  .accordion-menu li.open .dropdownlink .f-chevron-down {
+    transform:rotate(180deg);
+  }
+  .accordion-menu li:last-child .dropdownlink {
+    border-bottom:0;
+  }
+  .f {
+    background: url(../img/arrow-down.png) no-repeat center;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 25%;
+}
+  .dropdownlink {
+    cursor:pointer;
+    display:block;
+   /*  padding:15px 15px 15px 45px; */
+    font-size:1.5rem;
+    font-weight: 700;
+    border-bottom:1px solid #ccc;
+    color:#14374c;
+    position:relative;
+    transition:all 0.4s ease-out;
+  }
+  .dropdownlink:hover > .submenuItems {
+    display:block;
+  }
+  .dropdownlink i {
+      position:absolute;
+      top:4px;
+      /* left:16px; */
+  }
+  .dropdownlink .f-chevron-down {
+      right:-20px;
+      left:auto;
+  }
+  .submenuItems {
+    display: none;
+    position: absolute;
+    top: 7rem; 
+    padding: 3px;
+    border:1px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(10 10 10 / 30%) 1px 1px 20px;
+  }
+
+  .submenuItems a {
+    display:block;
+    color:#14374c;
+    /* padding:12px 12px 12px 45px; */
+    transition:all 0.4s ease-out;
+  }
+  .submenuItems a:hover {
+    /* background-color:#63ead3; */
+    color:#63ead3;
+  } 
   .main .contact{
   display:inline-block;
   text-align:right;
@@ -1586,12 +1659,12 @@
   }
   .main .contact-block a{
   margin-top:0;
-  margin-left:0
+  margin-left:0;
   }
   .main-menu{
-  display:none
+  display:none;
   }
-  .goods::before{
+    .goods::before{
   height:58%
   }
   .goods-item_mattress{
