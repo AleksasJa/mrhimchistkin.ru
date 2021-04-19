@@ -806,6 +806,12 @@
   width:100%;
   background-color:rgba(19,19,19,.1)
   }
+  .goods-item_furniture {
+  z-index:-100;
+  position:absolute;
+  height:100%;
+  width:100%  
+  }
   .goods-item_sofas{
   z-index:-100;
   position:absolute;
@@ -3135,6 +3141,12 @@
   }
   .goods::before{
   height:75%
+  }
+  .goods-item_furniture {
+  min-height:50rem;
+  top:0;
+  height:75%;
+  background:url(../img/goods-item/foto-sobaka-na-divane.webp) no-repeat center/cover
   }
   .goods-item_mattress{
   min-height:50rem;
