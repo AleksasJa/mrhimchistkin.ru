@@ -109,6 +109,57 @@
 	           }
 	        }
 			});
+			$('.sofas-price_slider').owlCarousel({
+				loop:false,
+	        margin:20,
+	        autoplay:true,
+	        autoplayTimeout:4000,
+	        responsive: {
+	           0:{
+	               items:1
+	           },
+	           600:{
+	               items:1
+	           },
+	           1000:{
+	               items:3
+	           }
+	        }
+			});
+			$('.armchairs-price_slider').owlCarousel({
+				loop:false,
+	        margin:20,
+	        autoplay:true,
+	        autoplayTimeout:6000,
+	        responsive: {
+	           0:{
+	               items:1
+	           },
+	           600:{
+	               items:1
+	           },
+	           1000:{
+	               items:3
+	           }
+	        }
+			});
+			$('.mattress-price_slider').owlCarousel({
+				loop:false,
+	        margin:20,
+	        autoplay:true,
+	        autoplayTimeout:8000,
+	        responsive: {
+	           0:{
+	               items:1
+	           },
+	           600:{
+	               items:1
+	           },
+	           1000:{
+	               items:3
+	           }
+	        }
+			});
 	    $('button.animated').hover(
 	    function() {
 	     $(this).addClass('pulse'); // Добавляем класс bounce
@@ -117,7 +168,6 @@
 	     $(this).removeClass('pulse'); // Убираем класс
 	    }
        );
-       
        $('form input[type=file]').change(function(){
             if($('form input[type=file]').val() !=''){
                $('label.user-file').removeClass('user-file').addClass('user-file_ok');
