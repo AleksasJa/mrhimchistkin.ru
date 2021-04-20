@@ -1009,6 +1009,9 @@
     height: 100%;
     width: 100%;
   }
+  .sofas-price_slider {
+    margin-bottom: 10%;
+  }
   .sofas-price_block {
     text-align: center;
   }
@@ -1019,6 +1022,9 @@
   .sofas-price_block span {
     display: inline-block;
     transform: translateY(-7rem);
+  }
+  .armchairs-price_slider {
+    margin-bottom: 10%;
   }
   .armchairs-price_block {
     text-align: center;
@@ -1117,6 +1123,9 @@
   margin-top:2rem;
   font-size:2.2rem;
   font-weight:700
+  }
+  .furniture-video {
+    text-align: center;
   }
   .how_clean-slider .how_clean-sofas .how-img{
   text-align:center
