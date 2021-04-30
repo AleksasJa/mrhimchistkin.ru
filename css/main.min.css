@@ -359,6 +359,7 @@
   position:absolute;
   text-align:right;
   top:7rem;
+  right: 5rem;
   }
   .overlayMenu ul{
   list-style:none;
@@ -2096,6 +2097,9 @@
   .main-menu{
   display:none
   }
+  .goods {
+    padding-top: 7rem;
+  }
   .goods::before{
   height:70%;
   }
@@ -2223,7 +2227,6 @@
   }
   .seo-text_one{
   display:inline-block;
-  margin-top:10rem
   }
   .price-mattress h4{
   margin-bottom:0;
@@ -2329,6 +2332,12 @@
   margin-bottom:5rem;
   width:100%
   }
+  .staff-section_item strong::before {
+    top: 49%;
+  }
+  .staff-section_item span {
+    left: 45%;
+  }
   .tour .section-header h2{
   font-size:2.5rem
   }
@@ -2426,7 +2435,7 @@
   display:none
   }
   .goods{
-  padding-top:10rem
+  padding-top:9rem
   }
   .goods::before{
   height:70%
@@ -2658,6 +2667,12 @@
   transform:translate(-50%,0);
   padding-bottom:2rem
   }
+  .staff-section_item strong::before {
+    top: 49%;
+  }
+  .staff-section_item span {
+    left: 45%;
+  }
   .tour img{
   left:-60px
   }
@@ -2731,7 +2746,7 @@
   line-height:4.5rem
   }
   .goods{
-  padding-top:10rem
+  padding-top:9rem
   }
   .goods::before{
   height:75%
@@ -2887,6 +2902,24 @@
   width:100%;
   height:100%
   }
+  .sofas-price_block strong {
+    font-size: 2rem;
+  }
+  .sofas-price_block span {
+    font-size: 2.8rem;
+  }
+  .armchairs-price_block strong {
+    font-size: 2rem;
+  }
+  .armchairs-price_block span {
+    font-size: 2.8rem;
+  }
+  .mattress-price_block strong {
+    font-size: 2rem;
+  }
+  .mattress-price_block span {
+    font-size: 2.8rem;
+  }
   .how_clean-slider .how_clean-armchairs .how-img h4{
   font-size:1.2rem
   }
@@ -2916,6 +2949,9 @@
   }
   .advantages .features .features-item p{
   top:52%
+  }
+  .staff-section_item strong::before {
+    top: 50%;
   }
   .tour img{
   left:-25px
@@ -2959,7 +2995,7 @@
   font-size:1.5rem
   }
   .goods{
-  padding-top:10rem
+  padding-top:7rem
   }
   .goods::before{
   height:75%
@@ -3137,6 +3173,12 @@
   .advantages .features .features-item p{
   font-size:1.4rem
   }
+  .staff-section_item strong::before {
+    top: 51%;
+  }
+  .staff-section_item span {
+    left: 47%;
+  }
   .tour img{
   left:14px
   }
@@ -3169,9 +3211,7 @@
   .contacts .map iframe{
   width:500px
   }
-  footer .rights{
-  width:135px
-  }
+  
   footer .footer-contacts{
   margin-top:2rem
   }
@@ -3241,7 +3281,7 @@
   min-height:50rem;
   top:0;
   height:75%;
-  background:url(../img/goods-item/foto-sobaka-na-divane.webp) no-repeat center/cover
+  background:url(../img/goods-item/foto-sobaka-na-divane-large.webp) no-repeat center/cover
   }
   .goods-item_mattress{
   min-height:50rem;
@@ -3325,6 +3365,12 @@
   }
   .price-seo_text {
     margin-top: 5%;
+  }
+  .staff-section_item span {
+    left: 47%;
+  }
+  .staff-section_item span {
+    top: 50%;
   }
   .feedback {
     margin-top: 14%;
