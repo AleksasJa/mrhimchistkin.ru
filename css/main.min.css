@@ -86,7 +86,7 @@
   }
   .section-header h2{
   font-weight:900;
-  font-size:3.6rem;
+  font-size:3rem;
   color:#14374c
   }
   ul, li, ol {
@@ -500,7 +500,7 @@
     cursor:pointer;
     display:block;
    /*  padding:15px 15px 15px 45px; */
-    font-size:1.5rem;
+    font-size:1.7rem;
     font-weight: 700;
     border-bottom:1px solid #ccc;
     color:#14374c;
@@ -812,7 +812,6 @@
   }
   .goods-item_sofas{
   z-index:-100;
-  position:absolute;
   height:100%;
   width:100%
   }
@@ -1079,21 +1078,25 @@
   .price-sofas_block{
   text-align:center
   }
-  .price-sofas_block h4{
-  position:relative;
-  transform:translate(0,30px)
-  }
+  
   .price-sofas_block img{
   display:inline-block;
   width:100%;
   height:100%
   }
+  .price-sofas_block strong {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-8rem);
+    font-size: 1.5rem;
+  }
   .price-sofas_block .price-tag{
-  position:relative;
-  display:block;
-  transform:translate(0,-45px);
-  font-size:2.2rem;
-  font-weight:700
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-7rem);
+    font-size: 2rem;
   }
   .price-armchairs_block{
   text-align:center
@@ -1177,11 +1180,13 @@
   border-radius:1rem
   }
   .how_clean-slider .how_clean-sofas .how-img img:hover{
-  transform:scale(1.2);
-  transition:.8s
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in 0s;
+    opacity: 1;
+    transform: scale(1.1);
   }
   .how_clean-slider .how_clean-sofas .how-img img:not(:hover){
-  transition:.8s
+    transition: all 0.3s ease-out 0s;
   }
   .how_clean-slider .how_clean-armchairs .how-img{
   text-align:center
@@ -1404,15 +1409,16 @@
   line-height:1.55
   }
   .our_works-section_item img:hover{
-  max-width: 100%;
-  height: auto;  
-  transform:scale(1.2);
-  transition:.8s
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in 0s;
+    opacity: 1;
+    transform: scale(1.1);
   }
   .our_works-section_item img:not(:hover){
-  transition:.8s
+    transition: all 0.3s ease-out 0s;
   }
   .staff-section_item {
+    position: relative;
     height: 100%;
     width: 100%;
     padding-bottom: 5rem;
@@ -1424,6 +1430,7 @@
   .staff-section_item strong {
     /* display: none; */
     display: inline-block;
+    position: relative;
     margin-top: 15%;
     padding: 10%;
     min-height: 20rem;
@@ -1436,7 +1443,7 @@
     content: '';
     display: block;
     position: absolute;
-    top: 47%;
+    top: -2rem;
     left: 50%;
     width: 2rem;
     height: 2rem;
@@ -1544,7 +1551,8 @@
   position:relative;
   padding:20px 20px;
   font-weight:300;
-  font-size:1.7rem
+  font-size:1.7rem;
+  font-style: italic;
   }
   .clients-section .owl-carousel .owl-item p::before{
   position:absolute;
@@ -1826,9 +1834,12 @@
   font-size:3rem
   }
   .goods-item_sofas{
-  top:7rem;
+  z-index: -100;  
   height:50%;
-  background:url(../img/goods-item/foto-devushka-na-divane-medium.webp) no-repeat center/cover
+  width: 100%;
+  background:url(../img/goods-item/foto-devushka-na-divane-medium.webp) no-repeat center/cover;
+  box-shadow: 0 0 8px 2px #fff inset;
+  filter: grayscale(10%);
   }
   .goods-item .sofas-header{
   padding-top:8rem;
@@ -1932,9 +1943,6 @@
   margin-top:-1rem
   }
   
-  .sofas-seo_text {
-    margin-top: 20%;
-  }
   .armchairs-seo_text {
     margin-top: 30%;
   }
@@ -2333,7 +2341,7 @@
   width:100%
   }
   .staff-section_item strong::before {
-    top: 49%;
+    top: -2rem;
   }
   .staff-section_item span {
     left: 45%;
@@ -2511,9 +2519,7 @@
   .seo-text_one{
   display:inline-block;
   }
-  .sofas-seo_text {
-    margin-top: 10rem;
-  }
+  
   .armchairs-seo_text {
     margin-top: 6rem;
   }
@@ -2668,7 +2674,7 @@
   padding-bottom:2rem
   }
   .staff-section_item strong::before {
-    top: 49%;
+    top: -2rem;
   }
   .staff-section_item span {
     left: 45%;
@@ -2813,9 +2819,7 @@
   height:75%;
   background:url(../img/goods-item/foto-kreslo-medium.webp) no-repeat center/cover   
   }
-  .sofas-seo_text {
-    margin-top: 70%;
-  }
+
   .mattress-seo_text {
     margin-top: 70%;
   }
@@ -2951,7 +2955,10 @@
   top:52%
   }
   .staff-section_item strong::before {
-    top: 50%;
+    top: -2rem;
+  }
+  .staff-section_item span {
+    left: 45%;
   }
   .tour img{
   left:-25px
@@ -3071,9 +3078,6 @@
   .seo-text_one{
   display:inline-block;
   }
-  .sofas-seo_text {
-    margin-top: 40%;    
-  }
   .armchairs-seo_text {
     margin-top: 40%;    
   }
@@ -3173,8 +3177,11 @@
   .advantages .features .features-item p{
   font-size:1.4rem
   }
+  .staff-section_item strong {
+    margin-top: 8%;
+  }
   .staff-section_item strong::before {
-    top: 51%;
+    top: -2rem;
   }
   .staff-section_item span {
     left: 47%;
@@ -3223,6 +3230,9 @@
   }
   .main{
   padding-bottom:.8rem
+  }
+  .main-menu_item {
+    font-size: 1.7rem;
   }
   .price-mattress_block h4{
   margin-bottom:0;
@@ -3367,10 +3377,8 @@
     margin-top: 5%;
   }
   .staff-section_item span {
+    top: 30%;
     left: 47%;
-  }
-  .staff-section_item span {
-    top: 50%;
   }
   .feedback {
     margin-top: 14%;

@@ -112,7 +112,7 @@
 			$('.sofas-price_slider').owlCarousel({
 				loop:false,
 	        margin:20,
-	        autoplay:true,
+	        autoplay:false,
 	        autoplayTimeout:4000,
 	        responsive: {
 	           0:{
