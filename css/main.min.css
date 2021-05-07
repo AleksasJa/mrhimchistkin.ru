@@ -823,11 +823,11 @@
   }
   .goods-item_armchairs{
   z-index:-100;
-  position:absolute;
   height:100%;
   width:100%;
   background:url(../img/goods-item/kreslo_large.webp) no-repeat center/cover;
-  box-shadow:0 0 8px 2px #fff inset
+  box-shadow:0 0 8px 2px #fff inset;
+  filter: grayscale(10%); 
   }
   .goods-item_carpets{
   min-height:15rem;
@@ -1101,9 +1101,12 @@
   .price-armchairs_block{
   text-align:center
   }
-  .price-armchairs_block h4{
-  position:relative;
-  transform:translate(0,30px)
+  .price-armchairs_block strong {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-5rem);
+    font-size: 1.5rem;
   }
   .price-armchairs_block img{
   display:inline-block;
@@ -1111,11 +1114,11 @@
   height:100%
   }
   .price-armchairs_block .price-tag{
-  position:relative;
-  display:block;
-  transform:translate(0,-45px);
-  font-size:2.2rem;
-  font-weight:700
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-4rem);
+    font-size: 2rem;
   }
   .price-carpets_block{
   text-align:center
@@ -1169,13 +1172,13 @@
   .how_clean-slider .how_clean-sofas .how-img h4{
   display:inline-block;
   min-height:5rem;
-  margin-bottom:2rem;
+  margin-bottom:-1rem;
   margin-top:5rem
   }
   .how_clean-slider .how_clean-sofas .how-img img{
   display:inline-block;
-  width:35rem;
-  height:20rem;
+  width:100%;
+  height:100%;
   opacity:.9;
   border-radius:1rem
   }
@@ -1194,22 +1197,24 @@
   .how_clean-slider .how_clean-armchairs .how-img h4{
   display:inline-block;
   min-height:5rem;
-  margin-bottom:2rem;
+  margin-bottom:-1rem;
   margin-top:5rem
   }
   .how_clean-slider .how_clean-armchairs .how-img img{
   display:inline-block;
-  width:27rem;
-  height:17rem;
+  width:100%;
+  height:100%;
   opacity:.9;
   border-radius:1rem
   }
   .how_clean-slider .how_clean-armchairs .how-img img:hover{
-  transform:scale(1.2);
-  transition:.8s
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in 0s;
+    opacity: 1;
+    transform: scale(1.1);
   }
   .how_clean-slider .how_clean-armchairs .how-img img:not(:hover){
-  transition:.8s
+    transition: all 0.3s ease-out 0s;
   }
   .how_clean-slider .how_clean-matressas .how-img{
   text-align:center
@@ -1807,6 +1812,9 @@
   .main-menu{
   display:none;
   }
+  .overlayMenu ul li a {
+    padding: 3px 20px 10px 20px;
+  } 
   .goods {
     padding-top: 7rem;
   }
@@ -1943,9 +1951,6 @@
   margin-top:-1rem
   }
   
-  .armchairs-seo_text {
-    margin-top: 30%;
-  }
   .mattress-seo_text {
     margin-top: 30%;
   }
@@ -1994,9 +1999,6 @@
   .how_clean-slider .how_clean-matressas .how-img img{
   width:95%;
   height:100%
-  }
-  .how_clean-slider .how_clean-armchairs .how-img h4{
-  margin-bottom:-1rem
   }
   .how_clean-slider .how_clean-armchairs .how-img img{
   width:95%;
@@ -2520,9 +2522,6 @@
   display:inline-block;
   }
   
-  .armchairs-seo_text {
-    margin-top: 6rem;
-  }
   .mattress-seo_text {
     margin-top: 10rem;
   }
@@ -2823,9 +2822,7 @@
   .mattress-seo_text {
     margin-top: 70%;
   }
-  .armchairs-seo_text {
-    margin-top: 60%;
-  }
+  
   .price-seo_text {
     margin-top: 48%;
   }
@@ -2924,13 +2921,7 @@
   .mattress-price_block span {
     font-size: 2.8rem;
   }
-  .how_clean-slider .how_clean-armchairs .how-img h4{
-  font-size:1.2rem
-  }
-  .how_clean-slider .how_clean-armchairs .how-img img{
-  width:100%;
-  height:100%
-  }
+  
   .how_works-slider .how_works-block{
   width:138px
   }
@@ -3376,9 +3367,12 @@
   .price-seo_text {
     margin-top: 5%;
   }
+  .staff-section_item strong {
+    margin-top: 8%;
+  }
   .staff-section_item span {
-    top: 30%;
-    left: 47%;
+    top: 34%;
+    left: 47.5%;
   }
   .feedback {
     margin-top: 14%;
