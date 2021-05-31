@@ -18,29 +18,7 @@
 	<link href="./css/animate.css" rel="stylesheet"><!--Bootstrap CSS-->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!--Custom styles for this template-->
 	<link href="./css/owl.carousel.min.css" rel="stylesheet">
-	<link href="./css/main.min.css" rel="stylesheet"><!--Chatra {color}-->
-
-	<script>
-	       window.ChatraSetup = {
-	           colors: {
-	               buttonText: '#14374c', /* цвет текста кнопки чата */
-	               buttonBg: '#ffffff'    /* цвет фона кнопки чата */
-	           }
-	       };
-	</script><!--Chatra {/color}-->
-	<!-- Chatra {literal} -->
-	<script>
-	   (function(d, w, c) {
-	       w.ChatraID = 'CWMD5MHiSog8DArez';
-	       var s = d.createElement('script');
-	       w[c] = w[c] || function() {
-	           (w[c].q = w[c].q || []).push(arguments);
-	       };
-	       s.async = true;
-	       s.src = 'https://call.chatra.io/chatra.js';
-	       if (d.head) d.head.appendChild(s);
-	   })(document, window, 'Chatra');
-	</script><!-- /Chatra {/literal} -->
+	<link href="./css/main.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- <a class="back-button" href="./index.html"><img class="back-button__image" src="./img/back.png" alt="back_button"></a> -->
@@ -49,22 +27,36 @@
 			<div class="container">
 				<div class="header">
 					<div class="row">
-						<div class="col-sm-12 offset-sm-0 col-md-4 offset-md-0 col-lg-4 offset-lg-0">
+						<div class="col-sm-12 offset-sm-0 col-md-2 offset-md-0 col-lg-2 offset-lg-0">
 							<div class="main-logo">
 								<div class="main-logo__text">
-									<h1>Персональные данные</h1><br>
 									<span>&#127808 Mr.ХиМчисткин</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-12 offset-sm-0 col-md-4 offset-md-0 col-lg-4 offset-lg-0">
+						<div class="col-sm-12 offset-sm-0 col-md-8 offset-md-0 col-lg-8 offset-lg-0">
 							<div class="main-menu">
-								<a href="./index.html" class="main-menu_item">Диваны</a>
-								<a href="./chistka_kresel.html" class="main-menu_item">Кресла</a>
-								<a href="./chistka_matrasov.html" class="main-menu_item">Матрасы</a>
+								<ul class="accordion-menu">
+									 <li>
+										<div class="dropdownlink"> Услуги
+											<i class="f f-chevron-down" aria-hidden="true"></i>
+										</div>
+										<ul class="submenuItems">
+											<li><a href="./index.html">Химчистка диванов</a></li>
+											<li><a href="./khimchistka-myagkoj-mebeli.html">Химчистка мягкой мебели</a></li>
+											<li><a href="./khimchistka-kresel.html">Химчистка кресел</a></li>
+											<li><a href="./khimchistka-matrasov.html">Химчистка матрасов</a></li>
+										</ul>
+									</li>
+								</ul>
+									<a href="./price.html" class="main-menu_item">Цены</a>
+									<a href="./otzivy-clientov.html" class="main-menu_item">Отзывы</a>
+									<a href="./foto.html" class="main-menu_item">Фото</a>
+									<a href="./blog/index.html" class="main-menu_item">Блог</a>
+									<a href="./kontakty.html" class="main-menu_item">Контакты</a>
 							</div>
 						</div>
-						<div class="col-sm-12 offset-sm-0 col-md-4 offset-md-0 col-lg-4 offset-lg-0">
+						<div class="col-sm-12 offset-sm-0 col-md-2 offset-md-0 col-lg-2 offset-lg-0">
 							<div class="contact">
 								<div class="contact-block">
 									<p><a href="tel:+79637381399">+7(963)738-13-99</a></p>
@@ -73,16 +65,42 @@
 						</div>
 						<div class="col-sm-12 offset-sm-0 col-md-4 offset-md-0 col-lg-0 offset-lg-0">
 							<!-- Burger menu-->
-						<div class="overlay">
-							<nav class="overlayMenu">  
-								<ul role="menu">
-									<li><a href="index.html" role="menuitem">Диваны</a></li>
-									<li><a href="chistka_kresel.html" role="menuitem">Кресла</a></li>
-									<li><a href="chistka_matrasov.html" role="menuitem">Матрасы</a></li>
-								</ul>
-							</nav>
-							<p><a href="tel:+79637381399">+7(963)738-13-99</a></p>
-						</div>
+							<div class="overlay">
+								<nav class="overlayMenu">
+									<ul role="menu">
+													<li>
+																	<a href="index.html" role="menuitem" style="color: #63ead3">Химчистка диванов</a>
+													</li>
+													<li>
+																	<a href="khimchistka-myagkoj-mebeli.html" role="menuitem" >Химчистка мягкой мебели</a>
+												 </li>
+													<li>
+																	<a href="khimchistka-kresel.html" role="menuitem">Химчистка кресел и стульев</a>
+													</li>
+													<li>
+																	<a href="khimchistka-matrasov.html" role="menuitem">Химчистка матрасов</a>
+													</li>
+													<li>
+																	<a href="price.html" role="menuitem">Цены</a>
+												 </li>
+												 <li>
+																	<a href="otzivy-clientov.html" role="menuitem">Отзывы</a>
+												 </li>
+												 <li>
+																	<a href="foto.html" role="menuitem">Фото</a>
+												</li>
+												<li>
+																	<a href="./blog/index.html" role="menuitem">Блог</a>
+												</li>
+												<li>
+																	<a href="kontakty.html" role="menuitem">Контакты</a>
+												</li>
+									</ul>
+							 </nav>
+											<p>
+															<a href="tel:+79637381399">+7(963)738-13-99</a>
+											</p>
+							</div>
 						<div class="navBurger" role="navigation" id="navToggle"></div> 
 					</div>
 					</div>
