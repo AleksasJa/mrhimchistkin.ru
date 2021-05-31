@@ -110,9 +110,9 @@
 	        }
 			});
 			$('.sofas-price_slider').owlCarousel({
-				loop:false,
+				loop:true,
 	        margin:20,
-	        autoplay:false,
+	        autoplay:true,
 	        autoplayTimeout:4000,
 	        responsive: {
 	           0:{
@@ -127,7 +127,7 @@
 	        }
 			});
 			$('.armchairs-price_slider').owlCarousel({
-				loop:false,
+				loop:true,
 	        margin:20,
 	        autoplay:true,
 	        autoplayTimeout:6000,
@@ -144,7 +144,7 @@
 	        }
 			});
 			$('.mattress-price_slider').owlCarousel({
-				loop:false,
+				loop:true,
 	        margin:20,
 	        autoplay:true,
 	        autoplayTimeout:8000,
