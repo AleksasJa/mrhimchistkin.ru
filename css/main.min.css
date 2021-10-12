@@ -484,7 +484,6 @@
     min-width: 160px;
     height: auto;
     display: block;
-    vertical-align: middle;
   }
   .main-logo h1{
   display:inline-block;
@@ -2511,12 +2510,6 @@
   .main{
   padding-bottom:0
   }
-  .main-logo img{
-  margin-top:30px;
-  margin-left:-40px;
-  height:70px;
-  width:70px
-  }
   .main-logo h2{
   text-align:center
   }
@@ -2548,7 +2541,7 @@
   }
   .goods-item_mattress{
     background-size: contain;
-    height: 50vh;
+    /* height: 50vh; */
   }
   .goods-item .mattress-header{
   padding-top:4rem
@@ -2559,14 +2552,14 @@
   }
   .goods-item_armchairs{
     background-size: contain;
-    height: 50vh;
+    /* height: 50vh; */
   }
   .goods-item .armchairs-header{
   padding-top:4rem
   }
   .goods-item_sofas{
   background-size: contain;
-  height: 50vh;
+ /*  height: 50vh; */
   } 
   .goods-item .sofas-header{
   padding-top:4rem
@@ -2576,19 +2569,19 @@
   }
   .goods-item_furniture {
     background-size: contain;
-    height: 50vh;
+    /* height: 50vh; */
   }
   .goods-item_price {
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
+    background-size: contain;
+   /*  background-position: center; */
+    /* height: 50vh; */
   }
   .goods-item .price-text{
   font-size: 2rem;
   }
   .goods-item_feedback{
     background-size: contain;
-    height: 50vh;
+    /* height: 50vh; */
   }
   .goods-item .feedback-header{
   padding-top:4rem
@@ -2598,7 +2591,7 @@
   }
   .goods-item_foto {
     background-size: contain;
-    height: 50vh; 
+    /* height: 50vh;  */
   }
   .feedback {
     margin-top: -9rem;
