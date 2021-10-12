@@ -479,10 +479,12 @@
   display:inline-block
   }
   .main-logo img{
-  display:inline-block;
-  box-sizing:border-box;
-  margin-top:3rem;
-  margin-left:2rem
+    max-width: 160px;
+    width: 160px;
+    min-width: 160px;
+    height: auto;
+    display: block;
+    vertical-align: middle;
   }
   .main-logo h1{
   display:inline-block;
